@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const cartIcon = document.querySelector('.cart img');
     let cartCount = 0;
   
-    // إضافة `span` لعرض العدد الافتراضي "0" عند تحميل الصفحة.
+
     const countSpan = document.createElement('span');
     countSpan.classList.add('cart-count');
     countSpan.textContent = cartCount;
