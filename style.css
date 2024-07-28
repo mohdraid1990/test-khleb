@@ -184,6 +184,36 @@ nav .cart {
   margin-top: 20px;
   cursor: pointer;
 }
+.order {
+  position: absolute;
+    right: -2px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 153px;
+    width: 48px;
+}
+.order button {
+  writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    background-color:#CF8C0B1A ;
+    color: #CF8C0B;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Lusitana;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    
+    outline: none;
+    border-radius: 10px;
+    border: 2px 0  solid;
+}
 
 .main {
   display: flex;
